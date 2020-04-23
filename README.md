@@ -1,3 +1,22 @@
+# TDD
+## The Rules
+1. First you write a test that fails.  
+   You have to write only that much of a test that will fail, no more.
+1. Then you write code to make it pass.  
+   You have to choose the most degenerate way of making the test pass, no more.
+1. Refactor if needed.
+1. Repeat.
+
+## The Benefits
+- You end up with tests that you can trust.
+- Test coverage is pretty much 100%.
+- It encourages continuous refactoring / cleanup.
+- It helps inform your architecture.
+
+## Common Myths
+- It takes longer to complete my work when using TDD.
+- I'm not used to it; it doesn't sound like my cup of tea.
+
 # How to Play
 ## Rules for Scoring
 https://www.pba.com/Resources/Bowling101
@@ -15,20 +34,3 @@ game.Roll(3);
 
 int score = game.Score();
 ```
-
-# TDD
-## The Rules
-1. You cannot write production code until you've written a failing test.
-1. You can only write as much production code as is required to make the test pass.
-1. Refactor if needed.
-1. Repeat.
-
-## The Benefits
-- You end up with tests that you can trust.
-- Test coverage is pretty much 100%.
-- It encourages continuous refactoring / cleanup.
-- It helps inform your architecture.
-
-## Common Myths
-- It takes longer to complete my work when using TDD.
-- I'm not used to it; it doesn't sound like my cup of tea.

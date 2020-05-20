@@ -18,8 +18,9 @@
 - Even if we have 100% code coverage and full use-case coverage, we might still be missing a third dimension.
   - What if we write an acceptance test for `Save(user)` and `Load(userId)`. Then someone comes along and erases the code for `Save(user)` and changes `Load(userId)` to return a hard-coded object?
 - You end up with tests that you can actually trust.
-- Test is 100%, because you would not have written production code except in response to a failing test.
+- You get 100% coverage, because you would not have written production code except in response to a failing test.
 - If you find a bug, you can fix it with CTRL+Z.
+- While your tests are testing your code, your code is testing your tests. That's because, for each test, you see it fail, then you see it pass, and the only thing you did in between was to write the very code that makes it pass.
 - It encourages continuous refactoring / cleanup.
 - It helps inform your architecture.
 
